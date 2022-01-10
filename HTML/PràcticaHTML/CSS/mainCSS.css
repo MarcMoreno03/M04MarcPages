@@ -1,5 +1,13 @@
+
+*{
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+
 body{
-    background-color: blueviolet;
+    background-image: url(https://media.istockphoto.com/vectors/food-and-drink-outline-seamless-pattern-hand-drawn-kitchen-background-vector-id493660520?k=20&m=493660520&s=612x612&w=0&h=A40XvvV9WKRf2DNqfaLW6NI5AxPzfQcsYannbyGTR4M=) 
+
 }
 
 .mainList{
@@ -18,10 +26,10 @@ li{
 figure {
     display: flex;
     justify-content: center;
-    border:  #3431aa;
+    border:  #5957B8;
     border-radius: 20px;
     padding: 0px;
-    background-color: #3431aa;
+    background-color: #5957B8;
     border: solid black 2px;
     height: 220px;
     padding-top: 10px;
@@ -55,10 +63,10 @@ aside {
 nav{
     background-color: #5957B8;
     border: solid black 2px;
-    margin-left: 200px;
-    margin-right: 200px;
     border-radius: 20px;
     margin-bottom: 17px;
+    width: 600px;
+    display: inline block;
 }
 
 .mapOfWeb ul li{
@@ -67,4 +75,97 @@ nav{
 
 .exceptionIndex{
     border-left: solid black 2px;
+}
+
+.contact-wrapper{
+    background: #181818;
+    color: #fff;
+}
+
+.contact-wrapper > *{
+    padding: 1em;
+}
+
+.content{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.logo{
+    text-align: center;
+    font-size: 2em;
+    background: gray;
+}
+
+.logo span{
+    color: #5957B8;
+}
+
+.contact-form{
+    background: #22222222;
+}
+
+.contact-form form p{
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block{
+    grid-column: 1 / 3;
+}
+
+.contact-form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    border-bottom: 1px solid #5957B8;
+    color: #fff;
+}
+
+.contact-form form button{
+    background: #5957B8;
+    color: #000;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #8E8CE3;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+
+}
+
+.contact-info{
+    background: #000;
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+    text-align: center;
+    margin:0 0 1rem 0 ;
+}
+
+.contact-info ul{
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    padding: .5em ;
 }
