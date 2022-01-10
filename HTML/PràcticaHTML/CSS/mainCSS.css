@@ -1,9 +1,6 @@
-
-
-*{
-    border: 1px solid black;
+body{
+    background-color: blueviolet;
 }
-
 
 .mainList{
     display:flex;
@@ -22,9 +19,52 @@ figure {
     display: flex;
     justify-content: center;
     border:  #3431aa;
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 0px;
     background-color: #3431aa;
+    border: solid black 2px;
+    height: 220px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
+aside {
+    padding-left: 40px;
+}
 
+.sobremi {
+    width: 200px;
+    text-align: center;
+
+}
+
+.sobremiback{
+    border: solid black 2px;
+    background-color: #6E6CBD;
+    width: 200px;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.wolfangradius{
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+}
+
+nav{
+    background-color: #5957B8;
+    border: solid black 2px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+    margin-bottom: 17px;
+}
+
+.mapOfWeb ul li{
+    border-right: solid black 2px;
+}
+
+.exceptionIndex{
+    border-left: solid black 2px;
+}
